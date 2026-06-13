@@ -1,0 +1,24 @@
+[project]
+name = "giftshop-panel"
+version = "2.9.30"
+description = "A comprehensive admin dashboard system for managing X-UI panels with role-based access control (SuperAdmin and Admin roles)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic-settings==2.9.1",
+    "requests==2.32.3",
+    "httpx",
+    "SQLAlchemy==2.0.39",
+    "alembic==1.15.1",
+    "Dependencies",
+    "psutil",
+    "PyJWT==2.10.1",
+    "python-dotenv==1.1.0",
+    "passlib[bcrypt]",
+    "python-jose[cryptography]",
+    "bcrypt",
+    "python-multipart",
+
+]

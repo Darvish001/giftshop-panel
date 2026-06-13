@@ -1,0 +1,12 @@
+services:
+  giftshop-panel:
+    image: darvish021/giftshop-panel:latest
+    container_name: giftshop-panel
+    restart: always
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
+    env_file:
+      - ./.env
+    ports:
+      - "${PORT:-8000}:${PORT:-8000}"
