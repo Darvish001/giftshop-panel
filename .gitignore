@@ -1,0 +1,9 @@
+.codegpt
+.env
+.venv
+__pycache__/
+*.pyc
+*.log
+*.db
+*.jpg
+*.jpeg
